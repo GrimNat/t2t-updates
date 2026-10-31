@@ -1,13 +1,21 @@
 {
- "version": "3.4.0",
+ "version": "3.4.1",
  "date": "2026-10-31",
  "notes": [
-  "Rivers go on the map as you swim or row: each water room you reach that the map doesn't have yet is added one step from where you were, named by its title, colored blue and linked to its banks. 'mapwater' shows how many there are, 'mapwater off' stops it, 'mapwater undo' removes the last one made.",
-  "Water rooms are locked: sp, goto and clicking the map still never take you through water (no drowning in a fight or with a heavy pack). Swimming and boating paths on request come later.",
-  "Moves on the water are followed: 'swim <dir>', 'launch <dir>', plain directions in a boat, 'land <dir>' back ashore. If the map wasn't sure which bank you set out from, it says so instead of guessing (then 'here <roomID>' on the bank).",
-  "No need for 'start mapping' on the water: if it's on when you swim or launch, it pauses (the stock mapper made one-way exits and copies of rooms there) and comes back on when you're on foot again."
+  "Fixed the freezes: the painted map pictures were saved inside the map file (70 MB with the overworld's), and Mudlet rewrote that file every few minutes. They're laid as temporary pictures now, never saved, so the map file stays small (about 9 MB).",
+  "On the overworld only the pictures around you are laid (3 or 4 instead of all 31), and a few are swapped in as you travel: far less memory, and the map redraws faster.",
+  "Following long stretches of look-alike rooms (travelto across the Rohan Plains) takes less work: each room is checked once per step."
  ],
  "history": [
+  [
+   "3.4.1",
+   "2026-10-31",
+   [
+    "Fixed the freezes: the painted map pictures were saved inside the map file (70 MB with the overworld's), and Mudlet rewrote that file every few minutes. They're laid as temporary pictures now, never saved, so the map file stays small (about 9 MB).",
+    "On the overworld only the pictures around you are laid (3 or 4 instead of all 31), and a few are swapped in as you travel: far less memory, and the map redraws faster.",
+    "Following long stretches of look-alike rooms (travelto across the Rohan Plains) takes less work: each room is checked once per step."
+   ]
+  ],
   [
    "3.4.0",
    "2026-10-31",
@@ -74,7 +82,7 @@
   "OmiT2TPersonal"
  ],
  "map": {
-  "version": "2026-10-31.0808",
-  "notes": "Omi's newest map (31 Oct, 08:08): new rooms Omi added, the Lothlorien and Barad-dur staircase name fixes, and a bad first boat-trip mapping on the Isen cleaned out."
+  "version": "2026-10-31.0854",
+  "notes": "Omi's newest map (31 Oct, 08:54): the rivers rowed so far are on the map as water rooms (the Isen, Hoarwell, Bruinen, Greyflood, Swanfleet, Adorn; locked, so sp never walks you into water), plus Omi's other new rooms."
  }
 }

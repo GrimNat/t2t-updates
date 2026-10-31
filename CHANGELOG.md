@@ -1,5 +1,10 @@
 # What's new
 
+## v3.4.1 (2026-10-31)
+- Fixed the freezes: the painted map pictures were saved inside the map file (70 MB with the overworld's), and Mudlet rewrote that file every few minutes. They're laid as temporary pictures now, never saved, so the map file stays small (about 9 MB).
+- On the overworld only the pictures around you are laid (3 or 4 instead of all 31), and a few are swapped in as you travel: far less memory, and the map redraws faster.
+- Following long stretches of look-alike rooms (travelto across the Rohan Plains) takes less work: each room is checked once per step.
+
 ## v3.4.0 (2026-10-31)
 - Rivers go on the map as you swim or row: each water room you reach that the map doesn't have yet is added one step from where you were, named by its title, colored blue and linked to its banks. 'mapwater' shows how many there are, 'mapwater off' stops it, 'mapwater undo' removes the last one made.
 - Water rooms are locked: sp, goto and clicking the map still never take you through water (no drowning in a fight or with a heavy pack). Swimming and boating paths on request come later.
