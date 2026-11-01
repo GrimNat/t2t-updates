@@ -1,5 +1,11 @@
 # What's new
 
+## v3.5.1 (2026-11-01)
+- Fixed: 3.5.0 could make the overworld (Arda) lag badly with the map pictures on. If you got 3.5.0, this fixes it.
+- The whole overworld is painted now: a small picture of all of Arda lies under the sharp pictures around you, so zoomed out the rest of the world isn't bare.
+- Right-clicking a room over the map pictures gives the room menu again (with Mudlet 5.1). If a click between rooms drags a picture off, 'mapbg on' puts it back.
+- Chat tabs: long tells, says and channel messages that the game splits over several lines now show as one line in their tab, and nothing else slips in after a tell.
+
 ## v3.5.0 (2026-10-31)
 - Hybrid squares: where the map's land squares don't line up with the game's river, a water room now shares the square with the land room in the way, instead of not being mapped at all.
 - Logged in while on a river? The map knows you're on the water as soon as it puts you in a water room, and 'start mapping' pauses there too (it made one-way exits and copies of rooms on the water).
