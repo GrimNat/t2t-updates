@@ -1,5 +1,16 @@
 # What's new
 
+## v3.5.0 (2026-10-31)
+- Hybrid squares: where the map's land squares don't line up with the game's river, a water room now shares the square with the land room in the way, instead of not being mapped at all.
+- Logged in while on a river? The map knows you're on the water as soon as it puts you in a water room, and 'start mapping' pauses there too (it made one-way exits and copies of rooms on the water).
+- Water rooms show a white ≈. Shallows, a room you can both walk and boat in (a shore like 'Along the Great Sea', a bridge, a ford), turn turquoise with a ~ by themselves when you row or swim into one; 'mapshallows' marks the room you're in, 'mapshallows all' every room with its name.
+- Bridges are painted as one straight deck across the water instead of a plank to every exit.
+- Map clicks and sp on the water: in a boat (or swimming) the walk goes by water rooms and shallows only, along the ways the game lists as water, as one fast 'do'. A land room can't be reached by boat: it says so instead of sending a walk the boat can't do.
+- Boats in one go, just type the direction: with your boat on the ground, a water way sends 'board boat,launch <dir>' as one 'do'; in the boat on the water, a land way sends 'land <dir>,disembark'; in the boat on the shore, 'launch <dir>'; swimming, a water way sends 'swim <dir>'. Long words (west) work too.
+- Exits that answer with the long description and no title (Laketown's 'lake' out onto the Long Lake) are followed now: the map reads the 'There is water to...' and 'The only obvious exits are...' lines. Every 'lake' in Laketown is known to lead to the Long Lake: from a quay the map doesn't have it for yet, it follows you and remembers that exit. Elsewhere, where the map doesn't know the exit yet, it asks the game with a 'glance'.
+- 'glance' in your boat on the water no longer makes the map think you're ashore (the game says 'You are in a rickety old boat.' on land and on water alike).
+- If the updater says there's no update address, it now says why (the OmiT2TPersonal package missing).
+
 ## v3.4.1 (2026-10-31)
 - Fixed the freezes: the painted map pictures were saved inside the map file (70 MB with the overworld's), and Mudlet rewrote that file every few minutes. They're laid as temporary pictures now, never saved, so the map file stays small (about 9 MB).
 - On the overworld only the pictures around you are laid (3 or 4 instead of all 31), and a few are swapped in as you travel: far less memory, and the map redraws faster.
