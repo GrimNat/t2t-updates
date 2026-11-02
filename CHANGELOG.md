@@ -1,5 +1,10 @@
 # What's new
 
+## v3.6.3 (2026-11-02)
+- Boat around by double-clicking the map: in your boat, a double-click on a water room (or shallows) rows you there as one fast 'do', by water only. In the boat on the shore it launches first. Before, Mudlet said 'Cannot find a path' for every click on the water ('sp' and 'goto' already worked).
+- Swimming: map clicks, sp and goto don't walk at all while you swim (a few rooms and you drown); it tells you instead.
+- The Harlond quays are linked to the Anduin: Near the Quays of Harlond (Arda) northwest is The quays of Harlond (Harlond), shown as an arrow between the two maps. The copies earlier boat trips made there (four rooms) are removed by themselves.
+
 ## v3.6.2 (2026-11-02)
 - Smoother by the rivers: the bank check on each step skips the ways already linked to their water room and remembers spots with no water room, instead of asking Mudlet to search the whole overworld (about 49,000 rooms) for them every time. At login the water rooms are only re-locked if they need it.
 
