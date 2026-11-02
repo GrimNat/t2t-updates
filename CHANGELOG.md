@@ -1,5 +1,10 @@
 # What's new
 
+## v3.6.5 (2026-11-02)
+- Dol Amroth: in The city and castle of Dol Amroth (overworld) 'nw' sends 'enter' to Outside the gate to the castle, and there 'se' sends 'out' back. The map draws the line between them (an arrow between the overworld and Dol Amroth), written by itself at login.
+- Smart exits: a pair of rules that lead to each other (like enter and out) now draws its line both ways, and 'sync exits' only writes what's missing.
+- The River Harnen: the whole land south of it (Harad, Umbar's coast) lay one row too far south; it moves up one row by itself at your first login, once (a copy of the map is saved first). A checkpoint near the River Harnen becomes its own area, the Mouth of River Harnen links straight south to the bank, and that bank is no longer marked as shallows. Right after, the few river-bank exits made before the move (now one row off) are pointed at the room beside them, so landing on the south bank puts the map in the right room again, and every exit into the river from the bank goes both ways.
+
 ## v3.6.4 (2026-11-02)
 - Safer Harlond clean-up: it only removes the old copy rooms while the quays aren't linked yet. Mudlet gives the numbers of deleted rooms to new ones, and new water rooms near Pelargir got exactly those numbers (they were never touched, but now they can't be).
 
