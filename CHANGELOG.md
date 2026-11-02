@@ -1,5 +1,9 @@
 # What's new
 
+## v3.6.1 (2026-11-02)
+- Fixed: in your boat, typing the direction of a landing the map knows now lands you ('do land se,disembark') even when the water room's title doesn't list that land (Nen Hithoel to The Plains). It sent a plain 'se' and the game said 'perhaps you could land there?'.
+- The Pelennor Fields trenches swap names ('A trench full of flames and smoke' / 'A deep trench, filled with smoke and ruin'): both now count as the same room, like Lothlorien and the Barad-dur stairs, so the map keeps up there.
+
 ## v3.6.0 (2026-11-02)
 - Special rooms on the overworld (Arda) are red: every room with a way off the grid (enter, path, gate, village, up, down...) and every room whose plain direction leads into another area (a zone's entrance). The first login colors all of them once; a room turns red by itself when such an exit is learned there.
 - In the painted map those rooms glow red, like the rooms marked red by hand always did, with their road or bridge still drawn on top.
