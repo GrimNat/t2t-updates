@@ -1,5 +1,9 @@
 # What's new
 
+## v3.6.6 (2026-11-02)
+- Fixed: with 'start mapping' on, every 'l' or 'look' put the stock mapper one move behind (T2T's look shows no room title, so the mapper kept waiting for one), so new rooms were linked the wrong way or made where you never went. Look no longer counts as a move.
+- 'start mapping' while the map isn't sure where you are (among look-alike rooms) now warns you first and asks for 'here <roomID>'; type it again within 30 seconds to map anyway.
+
 ## v3.6.5 (2026-11-02)
 - Dol Amroth: in The city and castle of Dol Amroth (overworld) 'nw' sends 'enter' to Outside the gate to the castle, and there 'se' sends 'out' back. The map draws the line between them (an arrow between the overworld and Dol Amroth), written by itself at login.
 - Smart exits: a pair of rules that lead to each other (like enter and out) now draws its line both ways, and 'sync exits' only writes what's missing.
