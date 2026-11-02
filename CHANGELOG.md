@@ -1,5 +1,8 @@
 # What's new
 
+## v3.6.4 (2026-11-02)
+- Safer Harlond clean-up: it only removes the old copy rooms while the quays aren't linked yet. Mudlet gives the numbers of deleted rooms to new ones, and new water rooms near Pelargir got exactly those numbers (they were never touched, but now they can't be).
+
 ## v3.6.3 (2026-11-02)
 - Boat around by double-clicking the map: in your boat, a double-click on a water room (or shallows) rows you there as one fast 'do', by water only. In the boat on the shore it launches first. Before, Mudlet said 'Cannot find a path' for every click on the water ('sp' and 'goto' already worked).
 - Swimming: map clicks, sp and goto don't walk at all while you swim (a few rooms and you drown); it tells you instead.
