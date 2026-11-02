@@ -1,11 +1,17 @@
 {
- "version": "3.6.6",
+ "version": "3.7.0",
  "date": "2026-11-02",
  "notes": [
-  "Fixed: with 'start mapping' on, every 'l' or 'look' put the stock mapper one move behind (T2T's look shows no room title, so the mapper kept waiting for one), so new rooms were linked the wrong way or made where you never went. Look no longer counts as a move.",
-  "'start mapping' while the map isn't sure where you are (among look-alike rooms) now warns you first and asks for 'here <roomID>'; type it again within 30 seconds to map anyway."
+  "The painted map pictures come with the updates now: the pop-up has an Update pictures button that brings Omi's newest painted land (rivers, roads, mountains, the red glows) for under the map, about 32 MB, and swaps it in for you. 'mapbg on' shows it. No more zip files for the pictures."
  ],
  "history": [
+  [
+   "3.7.0",
+   "2026-11-02",
+   [
+    "The painted map pictures come with the updates now: the pop-up has an Update pictures button that brings Omi's newest painted land (rivers, roads, mountains, the red glows) for under the map, about 32 MB, and swaps it in for you. 'mapbg on' shows it. No more zip files for the pictures."
+   ]
+  ],
   [
    "3.6.6",
    "2026-11-02",
@@ -167,5 +173,10 @@
  "map": {
   "version": "2026-11-02.0935",
   "notes": "Omi's newest map (2 Nov, morning): about 800 new rooms in the Harad Desert (Arda), with an oasis, the path between the sand dunes and the entrance to the Southwest Canyon (each its own small area), on top of everything in the last map (River Harnen move, Dol Amroth gate)."
+ },
+ "pictures": {
+  "version": "2026-11-02.0803",
+  "notes": "Omi's painted land for the whole map (every zone and the overworld): rivers and waterways, roads, the Misty Mountains, Mordor, the Umbar cliffs, the red glows at special rooms. Drawn to map 2026-11-02.0935.",
+  "size": 33806959
  }
 }

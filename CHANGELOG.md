@@ -1,5 +1,8 @@
 # What's new
 
+## v3.7.0 (2026-11-02)
+- The painted map pictures come with the updates now: the pop-up has an Update pictures button that brings Omi's newest painted land (rivers, roads, mountains, the red glows) for under the map, about 32 MB, and swaps it in for you. 'mapbg on' shows it. No more zip files for the pictures.
+
 ## v3.6.6 (2026-11-02)
 - Fixed: with 'start mapping' on, every 'l' or 'look' put the stock mapper one move behind (T2T's look shows no room title, so the mapper kept waiting for one), so new rooms were linked the wrong way or made where you never went. Look no longer counts as a move.
 - 'start mapping' while the map isn't sure where you are (among look-alike rooms) now warns you first and asks for 'here <roomID>'; type it again within 30 seconds to map anyway.
