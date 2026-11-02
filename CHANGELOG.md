@@ -1,5 +1,12 @@
 # What's new
 
+## v3.6.0 (2026-11-02)
+- Special rooms on the overworld (Arda) are red: every room with a way off the grid (enter, path, gate, village, up, down...) and every room whose plain direction leads into another area (a zone's entrance). The first login colors all of them once; a room turns red by itself when such an exit is learned there.
+- In the painted map those rooms glow red, like the rooms marked red by hand always did, with their road or bridge still drawn on top.
+- Fixed in the painted map: roads beside a river were painted as river (the southern Greenway at the Isen), and snowy peaks were drawn over the Isen south of it.
+- Walking along a river on foot links the bank to the water: every way the room title lists as water [ ] is joined to the water room there (if it's mapped), and that water room can land back on this bank. Walk both banks of a river once and its landings are all on the map. A short gray line says what was linked.
+- Fixed: with 'start mapping' on, anything you typed with 'enter <word>' in it (even a tell) could be saved as a special exit. Only commands that start with 'enter' count now, and talking (tell, say, emote, the comms) is never taken for an exit. The one such exit on the map (a tell at Rohan Plains 7148) is removed by itself.
+
 ## v3.5.1 (2026-11-01)
 - Fixed: 3.5.0 could make the overworld (Arda) lag badly with the map pictures on. If you got 3.5.0, this fixes it.
 - The whole overworld is painted now: a small picture of all of Arda lies under the sharp pictures around you, so zoomed out the rest of the world isn't bare.

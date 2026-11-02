@@ -1,13 +1,25 @@
 {
- "version": "3.5.1",
- "date": "2026-11-01",
+ "version": "3.6.0",
+ "date": "2026-11-02",
  "notes": [
-  "Fixed: 3.5.0 could make the overworld (Arda) lag badly with the map pictures on. If you got 3.5.0, this fixes it.",
-  "The whole overworld is painted now: a small picture of all of Arda lies under the sharp pictures around you, so zoomed out the rest of the world isn't bare.",
-  "Right-clicking a room over the map pictures gives the room menu again (with Mudlet 5.1). If a click between rooms drags a picture off, 'mapbg on' puts it back.",
-  "Chat tabs: long tells, says and channel messages that the game splits over several lines now show as one line in their tab, and nothing else slips in after a tell."
+  "Special rooms on the overworld (Arda) are red: every room with a way off the grid (enter, path, gate, village, up, down...) and every room whose plain direction leads into another area (a zone's entrance). The first login colors all of them once; a room turns red by itself when such an exit is learned there.",
+  "In the painted map those rooms glow red, like the rooms marked red by hand always did, with their road or bridge still drawn on top.",
+  "Fixed in the painted map: roads beside a river were painted as river (the southern Greenway at the Isen), and snowy peaks were drawn over the Isen south of it.",
+  "Walking along a river on foot links the bank to the water: every way the room title lists as water [ ] is joined to the water room there (if it's mapped), and that water room can land back on this bank. Walk both banks of a river once and its landings are all on the map. A short gray line says what was linked.",
+  "Fixed: with 'start mapping' on, anything you typed with 'enter <word>' in it (even a tell) could be saved as a special exit. Only commands that start with 'enter' count now, and talking (tell, say, emote, the comms) is never taken for an exit. The one such exit on the map (a tell at Rohan Plains 7148) is removed by itself."
  ],
  "history": [
+  [
+   "3.6.0",
+   "2026-11-02",
+   [
+    "Special rooms on the overworld (Arda) are red: every room with a way off the grid (enter, path, gate, village, up, down...) and every room whose plain direction leads into another area (a zone's entrance). The first login colors all of them once; a room turns red by itself when such an exit is learned there.",
+    "In the painted map those rooms glow red, like the rooms marked red by hand always did, with their road or bridge still drawn on top.",
+    "Fixed in the painted map: roads beside a river were painted as river (the southern Greenway at the Isen), and snowy peaks were drawn over the Isen south of it.",
+    "Walking along a river on foot links the bank to the water: every way the room title lists as water [ ] is joined to the water room there (if it's mapped), and that water room can land back on this bank. Walk both banks of a river once and its landings are all on the map. A short gray line says what was linked.",
+    "Fixed: with 'start mapping' on, anything you typed with 'enter <word>' in it (even a tell) could be saved as a special exit. Only commands that start with 'enter' count now, and talking (tell, say, emote, the comms) is never taken for an exit. The one such exit on the map (a tell at Rohan Plains 7148) is removed by itself."
+   ]
+  ],
   [
    "3.5.1",
    "2026-11-01",
@@ -108,7 +120,7 @@
   "OmiT2TPersonal"
  ],
  "map": {
-  "version": "2026-11-01.0429",
-  "notes": "Omi's newest map (1 Nov): all the waterways rowed and mapped as water rooms (Anduin, Entwash, Brandywine, Forest River, Celduin, Carnen, Limlight, Gladden, Evendim and more, about 1070 rooms; locked, so sp never walks you into water), shallows marked, and Laketown."
+  "version": "2026-11-02.0357",
+  "notes": "Omi's newest map (2 Nov): the Sirannon, Moria's Gate-stream, rowed down into the Swanfleet (30 new water rooms). With 3.6.0, your first login colors the overworld's special rooms red and removes one junk exit (a tell saved as an exit at Rohan Plains 7148)."
  }
 }
