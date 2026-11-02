@@ -1,5 +1,8 @@
 # What's new
 
+## v3.6.2 (2026-11-02)
+- Smoother by the rivers: the bank check on each step skips the ways already linked to their water room and remembers spots with no water room, instead of asking Mudlet to search the whole overworld (about 49,000 rooms) for them every time. At login the water rooms are only re-locked if they need it.
+
 ## v3.6.1 (2026-11-02)
 - Fixed: in your boat, typing the direction of a landing the map knows now lands you ('do land se,disembark') even when the water room's title doesn't list that land (Nen Hithoel to The Plains). It sent a plain 'se' and the game said 'perhaps you could land there?'.
 - The Pelennor Fields trenches swap names ('A trench full of flames and smoke' / 'A deep trench, filled with smoke and ruin'): both now count as the same room, like Lothlorien and the Barad-dur stairs, so the map keeps up there.
