@@ -1,5 +1,10 @@
 # What's new
 
+## v3.9.1 (2026-11-03)
+- The River Poros at Kadar: rowing east into Kadar made two overworld water rooms where the water is really Kadar's. They're removed by themselves at your next login, and no water room is made east of 58417 again.
+- Kadar's own river is linked to the overworld at both ends (Omi's map): the overworld Poros west of town flows into Kadar's river and back, and east of town the river's banks are The plains to the north and The Harad Road to the south. A stray link from Kadar's jetty out to the overworld water is gone.
+- Kadar's north docks are tied to the right water rooms for good (the two large wooden docks above the river): the map's guess by position can't link them wrongly any more.
+
 ## v3.9.0 (2026-11-02)
 - The Quests window (Quests button on the menu bar, or 'qi'): areas on the left, their quests in the middle, the quest on the right. Search names (and the texts) from the box at the top; tap a 'do ...' line to send it. Your quest texts are sorted by AREA now (one folder each, no more notes/Corebound/Lhathron folders and no PDFs), the write-ups of the same quest merged into one. Quests whose area isn't known sit in 'Unknown Area': open one and tap the area it's from.
 - The Character sheet (Character button, or 'sheet'): your name, level, stats, experience, armour slot by slot, and what's in your hands, what you wear and what you carry, in the game's colors. Refresh sends score, i and armour; otherwise it fills itself whenever you type them. The worn-items list along the bottom is gone: a status box shows your name, what you're holding and how you see, with a Character sheet button.

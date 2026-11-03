@@ -1,15 +1,21 @@
 {
- "version": "3.9.0",
- "date": "2026-11-02",
+ "version": "3.9.1",
+ "date": "2026-11-03",
  "notes": [
-  "The Quests window (Quests button on the menu bar, or 'qi'): areas on the left, their quests in the middle, the quest on the right. Search names (and the texts) from the box at the top; tap a 'do ...' line to send it. Your quest texts are sorted by AREA now (one folder each, no more notes/Corebound/Lhathron folders and no PDFs), the write-ups of the same quest merged into one. Quests whose area isn't known sit in 'Unknown Area': open one and tap the area it's from.",
-  "The Character sheet (Character button, or 'sheet'): your name, level, stats, experience, armour slot by slot, and what's in your hands, what you wear and what you carry, in the game's colors. Refresh sends score, i and armour; otherwise it fills itself whenever you type them. The worn-items list along the bottom is gone: a status box shows your name, what you're holding and how you see, with a Character sheet button.",
-  "Darkness and eaglesight on screen: in a room too dark to see in, the game text darkens towards its edges with a red 'Darkness' badge; with eaglesight on, a gold glow and an eagle badge remind you it's draining EP. 'sightfx off' turns the effects off, 'sight' says how you see.",
-  "Exits that are commands: 'mapx u climb rock' sends 'climb rock' and puts the room it brings on the map, up of here (or links the room already there), joined by 'climb rock'. Typing u there sends it from then on, and sp, goto and map clicks go through it. Works with 'start mapping' on too (the stock mapper never followed such commands). 'sx u climb rock' and then u does the same.",
-  "Walked somewhere the map doesn't have (a command, or a direction into an unmapped room)? A line offers [n] [ne] ... [up] [down] (or [add it east]): tap the way it lies and it's added and linked.",
-  "Fixed: the armour list stopped reading at 'ring1', so shield and waist were never updated. Faster room-name matching in look-alike areas (the Rohan Plains)."
+  "The River Poros at Kadar: rowing east into Kadar made two overworld water rooms where the water is really Kadar's. They're removed by themselves at your next login, and no water room is made east of 58417 again.",
+  "Kadar's own river is linked to the overworld at both ends (Omi's map): the overworld Poros west of town flows into Kadar's river and back, and east of town the river's banks are The plains to the north and The Harad Road to the south. A stray link from Kadar's jetty out to the overworld water is gone.",
+  "Kadar's north docks are tied to the right water rooms for good (the two large wooden docks above the river): the map's guess by position can't link them wrongly any more."
  ],
  "history": [
+  [
+   "3.9.1",
+   "2026-11-03",
+   [
+    "The River Poros at Kadar: rowing east into Kadar made two overworld water rooms where the water is really Kadar's. They're removed by themselves at your next login, and no water room is made east of 58417 again.",
+    "Kadar's own river is linked to the overworld at both ends (Omi's map): the overworld Poros west of town flows into Kadar's river and back, and east of town the river's banks are The plains to the north and The Harad Road to the south. A stray link from Kadar's jetty out to the overworld water is gone.",
+    "Kadar's north docks are tied to the right water rooms for good (the two large wooden docks above the river): the map's guess by position can't link them wrongly any more."
+   ]
+  ],
   [
    "3.9.0",
    "2026-11-02",
@@ -196,8 +202,8 @@
   "OmiT2TPersonal"
  ],
  "map": {
-  "version": "2026-11-02.0935",
-  "notes": "Omi's newest map (2 Nov, morning): about 800 new rooms in the Harad Desert (Arda), with an oasis, the path between the sand dunes and the entrance to the Southwest Canyon (each its own small area), on top of everything in the last map (River Harnen move, Dol Amroth gate)."
+  "version": "2026-11-03.0135",
+  "notes": "Omi's newest map (3 Nov, early morning): about 70 new water rooms: the Anduin at the Harad Road bridge, the Mouth of the Anduin, and the River Poros from the Anduin up to Kadar and on upstream past it, with the plains along its banks linked to the water. Kadar's river is joined to the overworld's at both ends, and Kadar's docks lead onto it. Everything in the last map (Harad Desert, River Harnen move, Dol Amroth gate) is still there."
  },
  "pictures": {
   "version": "2026-11-02.1711",
