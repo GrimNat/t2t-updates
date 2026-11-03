@@ -1,5 +1,17 @@
 # What's new
 
+## v3.9.0 (2026-11-02)
+- The Quests window (Quests button on the menu bar, or 'qi'): areas on the left, their quests in the middle, the quest on the right. Search names (and the texts) from the box at the top; tap a 'do ...' line to send it. Your quest texts are sorted by AREA now (one folder each, no more notes/Corebound/Lhathron folders and no PDFs), the write-ups of the same quest merged into one. Quests whose area isn't known sit in 'Unknown Area': open one and tap the area it's from.
+- The Character sheet (Character button, or 'sheet'): your name, level, stats, experience, armour slot by slot, and what's in your hands, what you wear and what you carry, in the game's colors. Refresh sends score, i and armour; otherwise it fills itself whenever you type them. The worn-items list along the bottom is gone: a status box shows your name, what you're holding and how you see, with a Character sheet button.
+- Darkness and eaglesight on screen: in a room too dark to see in, the game text darkens towards its edges with a red 'Darkness' badge; with eaglesight on, a gold glow and an eagle badge remind you it's draining EP. 'sightfx off' turns the effects off, 'sight' says how you see.
+- Exits that are commands: 'mapx u climb rock' sends 'climb rock' and puts the room it brings on the map, up of here (or links the room already there), joined by 'climb rock'. Typing u there sends it from then on, and sp, goto and map clicks go through it. Works with 'start mapping' on too (the stock mapper never followed such commands). 'sx u climb rock' and then u does the same.
+- Walked somewhere the map doesn't have (a command, or a direction into an unmapped room)? A line offers [n] [ne] ... [up] [down] (or [add it east]): tap the way it lies and it's added and linked.
+- Fixed: the armour list stopped reading at 'ring1', so shield and waist were never updated. Faster room-name matching in look-alike areas (the Rohan Plains).
+
+## v3.8.0 (2026-11-02)
+- The map in 3D (Mudlet 5.1): a 2D | 3D button at the map's bottom left flips it, and the new 3D Map button on the menu bar has the views (angled, low, iso, top), turning, zoom, Mudlet's 3D styles and a pop-out map that follows you (2D and 3D at once). Typed: 'map3d'. Only the view changes; the map itself is never touched.
+- The 3D landscape: with 'mapbg on', the painted land stands up in 3D: hills, mountain ranges with snowy crests, forests of round tree tops, Mount Doom with its lava, Barad-dur and the Eye, Minas Morgul, Cirith Ungol, the Last Homely House. The rooms you walk stay in the low ground. 'map3d height' makes it flatter, 'map3d land off' lays it flat. It comes with the painted pictures (Update pictures).
+
 ## v3.7.0 (2026-11-02)
 - The painted map pictures come with the updates now: the pop-up has an Update pictures button that brings Omi's newest painted land (rivers, roads, mountains, the red glows) for under the map, about 32 MB, and swaps it in for you. 'mapbg on' shows it. No more zip files for the pictures.
 
